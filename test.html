@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>test iiif</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"></link>
+        <meta charset="UTF-8"></meta>
+         <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    </head>
+    <body>
+          <div id="the-viewer"/>
+    
+
+      <script type="text/javascript">
+        const mirador = Mirador.viewer({
+               "id": "the-viewer",
+            "windows": [{"manifestId":"https://iiif.harvardartmuseums.org/manifests/object/292449"}],
+               "catalog": [{"manifestId":"https://figgy.princeton.edu/concern/scanned_resources/c50c7d2c-48a3-4ce4-8b62-6d90b2721691/manifest","provider":"Princeton University Library"}]
+                });
+      </script>
+    
+        </body>
+</html>
