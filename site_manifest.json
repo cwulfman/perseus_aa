@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://127.0.0.1:8000/site_manifest.json",
+  "@id": "https://github.com/cwulfman/perseus_aa/blob/main/site_manifest.json",
 	"@type": "sc:Manifest",
 	"label": "a site",
 	"metadata": [],
